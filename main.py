@@ -33,7 +33,7 @@ while True:
     if isPlayerHod:
         player_nominals = [i[0] for i in player_koloda]
         print('Ваш ход: ')
-        card = input('Введите карту: ')
+        card = input('Введите карту: ').upper()
         while not card in player_nominals:
             print('У вас нет такой карты!')
             card = input('Введите карту: ')
