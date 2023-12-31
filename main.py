@@ -25,12 +25,7 @@ while True:
         elif player_sobral < pig_sobral:
             print('Выиграл мистер свин!')
         else:
-            if len(player_koloda) == 0 and len(pig_koloda) == 0:
-                print('Ничья!')
-            elif len(player_koloda) == 0:
-                print('Вы выиграли!')
-            elif len(pig_koloda) == 0:
-                print('Выиграл мистер свин!')
+            print('Ничья!')
         print(f'Вы собрали {player_sobral} колоды. Мистер Свин собрал {pig_sobral} колоды. Всего ходов: {steps}')
         break
     print('Ваша колода')
